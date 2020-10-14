@@ -45,6 +45,6 @@ laravel new MyApplication --auth
 cd MyApplication
 php artisan serve
 ```
-[Reference 1](https://getcomposer.org/download/)
-[Reference 2](https://laravel.com/docs/8.x/installation)
+[Reference 1](https://getcomposer.org/download/)  
+[Reference 2](https://laravel.com/docs/8.x/installation)  
 [Reference 3](http://www.linuxandubuntu.com/home/install-laravel-in-ubuntu-20-04-lts)
