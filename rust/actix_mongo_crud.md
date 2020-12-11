@@ -75,3 +75,16 @@ nano src/main.rs
 +    format!("Hello fellow Rustacean!")
 +}
 ```
+
+#### error: linker `cc` not found
+[Reference 1](https://ostechnix.com/how-to-fix-rust-error-linker-cc-not-found-on-linux/)
+```bash
+cargo run
+error: linker `cc` not found
+  |
+  = note: No such file or directory (os error 2)
+```
+```bash
+sudo apt install build-essential
+cargo run
+```
